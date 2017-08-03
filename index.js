@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 rl.question('What is the file name? ', (filename) => {
-    console.log('You said: ' + filename)
+    console.log('Be right back with ' + filename + '. Just give me a moment.')
     rl.close();
     fs.readFile(filename, (err, buffer) => {
         if (err) {
