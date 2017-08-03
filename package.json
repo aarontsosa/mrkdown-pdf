@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aarontsosa/mrkdown-pdf/issues"
   },
-  "homepage": "https://github.com/aarontsosa/mrkdown-pdf#readme"
+  "homepage": "https://github.com/aarontsosa/mrkdown-pdf#readme",
+  "dependencies": {
+    "markdown-pdf": "^8.0.0"
+  }
 }
